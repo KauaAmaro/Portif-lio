@@ -1,0 +1,47 @@
+@keyframes caixa-animation{
+    from{
+       opacity: 0;
+        
+
+    }
+
+    to{
+       opacity: 1; 
+    
+    }
+}
+
+#caixa{
+ opacity: 0;
+  animation: caixa-animation 2s 10000 both;
+}
+
+/* Segunda Animacao*/
+
+@keyframes caixa-animationn{
+    from{
+       background-color: black;
+       border-radius: 0px;
+
+    }
+
+    to{
+        background-color: black;
+        border-radius: 300px;
+       
+    
+    }
+}
+
+#caixa-animation{
+    margin: 80px 0px 0px 50px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    animation: caixa-animationn 5s  both;
+
+}
+
+
+
+
