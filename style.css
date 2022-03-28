@@ -1,0 +1,116 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+ 
+    margin: 0px;
+}
+
+/* Primeiro Background inicio*/
+
+.background{
+ /*   width: 100vw ; */
+    height: 100vh ;
+    background: url(img/fundo_2.jpg);
+   background-size: cover; 
+ 
+    
+}
+
+/* Primeiro Background fim*/
+
+/* Segundo Background inicio*/
+
+#background2{
+  /*  width: 100vw ; */
+    height: 100vh ;
+    background: url(img/banco.png);
+   background-size: cover; 
+ 
+
+}
+
+/* Segundo Background Fim*/
+
+/* Mensagem inico */
+.direita{
+  float: right;
+  margin-top: 150px;
+  margin-right: 50px;
+  
+}
+
+.text{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 768px;
+}
+
+textarea{
+    width: 20em;
+    height: 10em;
+}
+
+.font{
+    color: white;
+    font-size: 1.5em;
+    margin: 0 0 0 0;
+    padding: 100px 0 0 145px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+#text1{
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 60px 0 0 10px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+.testes{
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+margin: 0px 0 0 700px;
+
+}
+
+
+.text-inici{
+ display: inline;
+  text-decoration: none;
+  list-style: none;
+ padding: 0px 0 0 50px;
+
+}
+/* formatação Links */
+a:link {
+
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  opacity: 0.3;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  
+  background-color: transparent;
+  text-decoration: underline;
+}
+
