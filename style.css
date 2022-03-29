@@ -34,6 +34,13 @@ body{
 
 /* Segundo Background Fim*/
 
+
+#background3{
+height: 100vh ;
+background: url(img/fundo_3.webp);
+background-size: cover; 
+}
+
 /* Mensagem inico */
 .direita{
   float: right;
@@ -114,3 +121,14 @@ a:active {
   text-decoration: underline;
 }
 
+#form1{
+  padding-top: 20%;
+}
+
+.form{
+
+  width: 40vw;
+  height: 40px;
+  margin: 0 0 0 30%;
+
+}
