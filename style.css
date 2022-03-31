@@ -11,10 +11,9 @@ body{
 /* Primeiro Background inicio*/
 
 .background{
- /*   width: 100vw ; */
     height: 100vh ;
     background: url(img/fundo_2.jpg);
-   background-size: cover; 
+    background-size: cover; 
  
     
 }
@@ -71,11 +70,12 @@ textarea{
 
 #text1{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.2em; 
     text-transform: uppercase;
     padding: 60px 0 0 10px;
     text-align: center;
     opacity: 0.8;
+
 }
 
 
@@ -97,7 +97,7 @@ margin: 0px 0 0 700px;
 }
 /* formatação Links */
 a:link {
-
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -109,26 +109,114 @@ a:visited {
 }
 
 a:hover {
-  color: blue;
-  opacity: 0.3;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:active {
+
+
+/*a:active {
   
   background-color: transparent;
   text-decoration: underline;
-}
+} */
 
-#form1{
-  padding-top: 20%;
+.form1{
+  padding-top: 10px;
+  
+  
 }
 
 .form{
-
+ 
   width: 40vw;
-  height: 40px;
-  margin: 0 0 0 30%;
+  height: 50px;
+  margin: 0 0 0 5%;
+  border-radius: 10px;
+  opacity: 0.8; 
+  padding-left: 5px;
+  background-color: white;
+  font-family:'Times New Roman', Times, serif ;
 
 }
+
+.button{
+  background-color: #028714;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  height: 30px;
+  width: 15vw;
+  border-radius: 60px;
+  margin: 8px 0 0 5%;
+  color: white;
+  box-shadow: 0px 5px #028714;
+}
+
+.button:hover{
+  font-size: 15px;
+  height: 25px;
+  width: 10vw;
+
+}
+
+.textFormt{
+  color: black;
+  text-transform: uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
+.formttext{
+  padding-top: 10px;
+  text-align: center;
+  color: black ;
+}
+
+
+#contat{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 10px 0 0 10px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+#projet{
+  font-size: 60px; 
+  text-align: center;
+  padding: 20 0 0 0;
+  text-transform: uppercase;
+}
+
+.img{
+  padding: 20px;
+  width: 250px;
+  height: 500px;
+  opacity: 0.6;
+}
+
+.img:hover{
+width: 270px;
+height: 500px;
+opacity: 1;
+cursor: pointer;
+
+}
+
+
+/* enviado */
+
+#caixa_envio{
+  width: 50%;
+  height: 300px;
+  background: #028714;
+}
+
+
+
+

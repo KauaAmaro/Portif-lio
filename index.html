@@ -11,71 +11,128 @@
 </head>
 <body>
 
+  <!-- PRIMEIRA PARTE-->
  
     <div class="background">
 <br> <br>
       <div class="testes"> 
         <ul id="testes2" >
-    <b>  <a href=""  > <li class=" text-inici"> Sobre mim </li> </a>
-      <a href=""  >   <li class="text-inici">Portfólio</li> </a> 
-      <a href=""  >    <li class="text-inici">Contatos</li> </a> </b>
+    <b>  <a href="#sobre"  > <li class=" text-inici"> Sobre mim </li> </a>
+      <a href="#porti"  >   <li class="text-inici">Portfólio</li> </a> 
+      <a href="#contato"  >    <li class="text-inici">Contatos</li> </a> </b>
      
         </ul>
       </div> 
       <div class="text direita" > 
         <h2 id="caixa"> FULL STACK WEB DEVELOPER </h2>
-
-        </div>
-      <code class="text ">
-          <ul>
-            <li> < </li>  <li>html</li> <li> > </li>
-
-
-          </ul>
-
-
-        </code>
         
       </div>
     </div>
 
+    <!-- SEGUNDA PARTE-->
+    <h2><a name="sobre"></a></h2>
     <div id="background2">
-      <div id="caixa-animation">
+      <div class="caixa-animation">
+        
 
-       <div class="font"> <h2 >sobre mim</h2> </div>
+       <div class="font"> <h2 > sobre mim </h2> </div>
 
        <p id="text1"> Olá, me chamo Kauã. Gosto de <br> transformar problemas complexos em <br> designs simples e intuitivos. 
          Quando eu não <br> estiver Me divertindo com pixels, 
          você pode <br> me encontrar entrando em contato comigo  </p>
       </div>
-      
+    </div>
 
-      
+ <!-- TERCEIRA PARTE-->
+ <h2><a name="porti"></a></h2>
+    <div id="background2">
+     
+
+      <!--Sem importancia-->
+<div>
+      <h2 id="projet">Projetos</h2>
+
+      <div>
+     <a>  <img  class="img"  src="img/fundo_1.webp"> </a> 
+      </div>
+
+  </div>
+
+
 
     </div>
 
-    <div>
+     <!-- QUARTA PARTE-->
+     <h2><a name="contato"></a></h2>
 
       <div id="background3">
 
-        <div id="form1">
-        <form >
+        <h2 id="contat"> Entre em Contato</h2>
+        <br> <br> <br>
+
+        <div class=" caixa-animation3">
         
-          <input class="form" type="email" name="email" id="email" placeholder="Email" > <br>
+
+        <form action="https://api.staticforms.xyz/submit" method="post"  class="form1">
+       
+          <input type="hidden" name="accessKey" value="07d847ce-893f-448e-970c-27afb066ffc0">
+
+          <input type="hidden" name="redirectTo" value="enviado.html">
+
+          <input class="form" type="email" name="email" id="email" placeholder="  Email" > <br> 
 
        
-          <input class="form" type="text" name="Nome" id="nome" placeholder="Nome" > <br>
+          <input class="form" type="text" name="name" id="name" placeholder="  Nome" > <br>
 
-          <input class="form" type="number" name="whatsapp" id="whatsapp" placeholder="whatsapp" > <br>
+          <input class="form" type="number" name="phone" id="whatsapp" placeholder="  Whatsapp" > <br>
 
-          
-          <input class="form" type="text" name="assunto" id="assunto" placeholder="Assunto" > <br>
+          <input class="form" type="text" name="message"  id="subject"  placeholder="  Assunto" > <br> 
+    
 
+          <button class="button" > ENVIAR </button>
 
         </form>
         </div>
+         <!-- Instagram-->
+
+         <a href="https://www.instagram.com/kauan.amaro/?utm_source=qr" target="_blank">   <div class="caixa-animation4">
+          <h2 class="textFormt"> Instagram </h2>
+               
+          <p class="formttext">@kauan.amaro</p>
+
+        </div>
+         </a>
+
+         <!-- Whatsapp-->
+        <a href="https://api.whatsapp.com/send?phone=5581991492056" target="_blank"><div class="caixa-animation5" >
+          <h2 class="textFormt"> whatsapp </h2>
+          
+          <p class="formttext"> Kauã Amaro</p>
+        </div>
+      </a>
+
+          <!-- linkedin-->
+         <a href="https://www.linkedin.com/in/kau%C3%A3-amaro-da-silva-655264223/" target="_blank"> <div class="caixa-animation6">
+
+          <h2 class="textFormt"> Linkedin </h2>
+
+          <p class="formttext">Kauã Amaro</p>
+
+          </div>
+        </a>
+           <!-- Github-->
+
+           <a href="https://github.com/KauaAmaro" target="_blank"> <div class="caixa-animation7">
+            <h2 class="textFormt"> github </h2> 
+          
+          <p class="formttext">KauaAmaro</p>
+
+
+          </div>
+           </a>
+
       </div>
-    </div>
+   
 
 <footer>kauã amaro</footer>
 

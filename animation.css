@@ -1,3 +1,4 @@
+
 @keyframes caixa-animation{
     from{
        opacity: 0;
@@ -14,34 +15,126 @@
 #caixa{
  opacity: 0;
   animation: caixa-animation 2s 10000 both;
-}
+} 
 
 /* Segunda Animacao*/
 
 @keyframes caixa-animationn{
     from{
        background-color: black;
-       border-radius: 0px;
+       border-radius: 300px;
+       width: 500px;
+       height: 500px;
 
     }
 
     to{
         background-color: black;
         border-radius: 300px;
+        width: 520px;
+        height: 520px;
        
     
     }
 }
 
-#caixa-animation{
+/* animation: caixa-animationn 5s  both; */
+.caixa-animation{
     margin: 80px 0px 0px 50px;
     width: 500px;
     height: 500px;
     background-color: black;
-    animation: caixa-animationn 5s  both;
+    animation: caixa-animationn 2s 10000 alternate-reverse ; 
+  /*  animation: name duration timing-function delay iteration-count direction fill-mode; */
+   
+
+}
+
+.caixa-animation:hover{
+    border-radius: 300px;
 
 }
 
 
+/* terceira animacao */
+
+
+.caixa-animation3{
+    margin: 100px 0 0  30px;
+    width: 45vw;
+    height: 300px;
+    background: white;
+    animation: caixa-animation1 5s  both;
+    border-radius: 10px;
+}
+
+
+.caixa-animation3:hover{
+    border-radius: 30px;
+}
+
+/* quarta animacao */
+.caixa-animation4{
+    float: right;
+    margin: -360px 80px 0  0;
+    width: 30vw;
+    height: 100px;
+    background: #D3D9DC;
+    animation: caixa-animation1 5s  both;
+    border-radius: 10px;
+}
+
+
+.caixa-animation4:hover{
+    border-radius: 20px;
+}
+
+/* Quinta animacao */
+.caixa-animation5{
+    float: right;
+    margin: -250px 80px 0  0;
+    width: 30vw;
+    height: 100px;
+    background: #D3D9DC;
+    animation: caixa-animation1 5s  both;
+    border-radius: 10px;
+}
+
+
+.caixa-animation5:hover{
+    border-radius: 20px;
+}
+
+/* Sexta animacao */
+.caixa-animation6{
+    float: right;
+    margin: -140px 80px 0  0;
+    width: 30vw;
+    height: 100px;
+    background: #D3D9DC;
+    animation: caixa-animation1 5s  both;
+    border-radius: 10px;
+}
+
+
+.caixa-animation6:hover{
+    border-radius: 20px;
+}
+
+/* Setima animacao */
+.caixa-animation7{
+    float: right;
+    margin: -30px 80px 0  0;
+    width: 30vw;
+    height: 100px;
+    background: #D3D9DC;
+    animation: caixa-animation1 5s  both;
+    border-radius: 10px;
+}
+
+
+.caixa-animation7:hover{
+    border-radius: 20px;
+}
 
 
